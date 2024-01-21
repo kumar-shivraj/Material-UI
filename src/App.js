@@ -6,6 +6,7 @@ import { ButtonGroup } from "@mui/material";
 import MUIButtonGroups from "./components/MUIButtonGroups";
 import MUIToggleButtons from "./components/MUIToggleButtons";
 import MUITextField from "./components/MUITextField";
+import MuiSelect from "./components/MuiSelect";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <MUIButtons /> */}
       {/* <MUIButtonGroups /> */}
       {/* <MUIToggleButtons /> */}
-      <MUITextField />
+      {/* <MUITextField /> */}
+      <MuiSelect />
     </div>
   );
 }
